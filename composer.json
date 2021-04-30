@@ -1,0 +1,22 @@
+{
+    "name": "eserenna/involve-asia-book-test",
+    "description": "",
+    "authors": [
+        {
+            "name": "eserenna",
+            "email": "e.serenna@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Config\\": "config",
+            "App\\": "app",
+            "Foundation\\": "foundation"
+        },
+        "files": [
+            "foundation/Request.php",
+            "foundation/Helpers.php"
+        ]
+    },
+    "require": {}
+}
